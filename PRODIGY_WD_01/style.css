@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, 'Segoe UI', Georgia, 'Times New Roman', Times, serif, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    background-color: #ffffff;
+    align-content: center;
+    z-index: 999;
+    transition: background-color 0.3s ease;
+}
+
+#navbar-menu a {
+    color: #000000;
+    text-decoration: none;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-weight: 500;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#navbar-menu a:hover {
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right:10px;
+}
+
+header.scrolled {
+    background-color: #afafaf;
+}
+
+#navbar-menu a.active {
+    background-color: #555; 
+    color: #fff;
+}
+
+.samsung-mobile {
+    position: relative;
+    background-image: url('/PRODIGY_WD_01/resources/samsung_S24Ultra_1440x450.jpg');
+    height: 800px;
+    background-position: center;
+    text-align: center;
+}
+
+.samsung-mobile h2 {
+    position: absolute;
+    top:95px;
+    left: 45%;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.samsung-mobile h6 {
+    position: absolute;
+    top: 150px;
+    left: 43.5%;
+    font-size: 20px;
+    text-decoration: underline;
+
+}
+
+#galaxy-ai {
+    position: absolute;
+    top: 185px;
+    left: 40%;
+    font-size: 35px;
+}
+
+#deal {
+    position: absolute;
+    top: 695px;
+    left: 39.5%;
+    font-size: 12px;
+}
+
+.samsung-mobile a {
+    position: absolute;
+    top: 745px;
+    left: 47.5%;
+    background-color: #000000;
+    color: #ffffff;
+    border-radius: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-decoration: none;
+}
+
+#desc {
+    padding: 30px;
+    border-top: 1px solid black;
+}
+
+#desc li {
+    font-size: 12px;
+    margin-left: 60px;
+    list-style-type: none;
+}
+
+.upper-section {
+    padding: 15px 75px;
+    display: flex;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    justify-content: space-between;
+}
+
+.upper-section h4 {
+    padding-bottom: 15px;
+}
+
+.upper-section li {
+    list-style-type: none;
+}
+
+.upper-section a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+}
+
+.upper-section a:hover {
+    text-decoration: underline;
+    color: #0000ff;
+    font-size: 14px;
+}
+
+.middle-section {
+    font-size: 12px;
+    padding: 15px 50px;
+    border-bottom: 1px solid black;
+}
+
+.lower-section {
+    font-size: 12px;
+    padding: 15px 50px;
+    /* display: flex;
+    justify-content: space-between; */
+}
+
+.lower-section a {
+    color: #000000;
+    text-decoration: none;
+    padding: 0 10px;
+}
