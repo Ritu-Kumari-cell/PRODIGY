@@ -1,3 +1,6 @@
+# Task:01
+<img width="1616" height="808" alt="Image" src="https://github.com/user-attachments/assets/1faf736a-116a-47b7-83ad-5b1d183be945" />
+
 # Interactive Navigation Menu for a Website (Responsive Landing Page)
 
 This project implements an interactive navigation menu for a website. The navigation menu changes its appearance when scrolled or when hovering over a menu item. It has a fixed position and is visible on all pages.
